@@ -1,4 +1,4 @@
-# Laboratory
+# Laboratory & Playground
 
 [![GitHub version](https://badge.fury.io/gh/maltewassermann%2Flab.svg)](https://badge.fury.io/gh/maltewassermann%2Flab)
 
