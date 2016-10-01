@@ -1,0 +1,54 @@
+/* Reset
+-------------------------------------------------- */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+main, article, aside, details, figcaption, figure,
+footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+
+/* Site
+-------------------------------------------------- */
+html, body {
+  min-height: 100%;
+  font-size: 16px;
+}
+html {
+  background-color: #fff;
+  text-size-adjust: 100%;
+}
+body {
+  position: relative;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  line-height: 1.54;
+  color: #000;
+}
+svg {
+  shape-rendering: optimizeSpeed;
+}
+h1 {
+  margin: 0 0 3rem;
+  font-size: 2rem;
+  line-height: 1.4;
+}
+h2 {
+  margin: 1rem 0 1rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+h3 {
+  margin: 1rem 0 0;
+}
+a {
+  color: currentColor;
+}
