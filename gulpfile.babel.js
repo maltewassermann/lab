@@ -12,7 +12,7 @@ const reload = browserSync.reload;
 gulp.task('lint', () =>
   gulp.src([
     'src/**/*.js',
-    '!src/**/lib'
+    '!src/**/lib/*.js'
   ])
   .pipe($.eslint())
   .pipe($.eslint.format())
@@ -29,7 +29,7 @@ gulp.task('styles', () => {
   // For best performance, don't add Sass partials to `gulp.src`
   return gulp.src([
     'src/**/*.scss',
-    '!src/**/lib'
+    '!src/**/lib/*.scss'
   ])
   .pipe($.sass({
     precision: 10
